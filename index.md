@@ -25,9 +25,28 @@ title: Internal Performance Packet
   </div>
 </section>
 
-<!-- REAL CONTENT STARTS HERE -->
-<main id="content" role="main" aria-label="Real content">
+
+<main id="content" role="main" aria-label="content">
   
 # Reference Hub
 
-Welcome 👋 — this section contains the **real documents**. Share only this page link:
+---
+
+## Index
+
+- ▶️ ./docs/example/
+- ▶️ External link (OneDrive, Google Drive, etc.) — paste your link here
+- ▶️ Another internal page (add more `.md` files in `docs/` and link them)
+
+---
+
+## Notes
+
+- This site is **unlisted** and marked **noindex**.
+- If you replace a file, update links here if the URL changes.
+- Keep sensitive content in private repos; link summaries here if needed.
+
+### Changelog
+- 2026‑02‑15 — Initial version.
+
+</main>
