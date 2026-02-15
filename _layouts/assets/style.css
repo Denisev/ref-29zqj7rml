@@ -1,0 +1,67 @@
+:root {
+  --bg: #0b1220;
+  --fg: #e7ecf3;
+  --muted: #9aa6b2;
+  --accent: #4da3ff;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--bg); color: var(--fg); font: 16px/1.5 system-ui, Segoe UI, Roboto, sans-serif; }
+
+.skip-link {
+  position: absolute; left: -9999px; top: -9999px;
+}
+.skip-link:focus {
+  position: fixed; left: 1rem; top: 1rem; z-index: 9999;
+  background: #000; color: #fff; padding: .5rem .75rem; border-radius: .25rem;
+}
+
+/* --- HERO (gibberish) --- */
+.hero {
+  min-height: 100vh; /* forces scroll */
+  display: grid; place-items: center;
+  background: linear-gradient(180deg, #0b1220 0%, #121a2b 100%);
+  padding: 3rem 1.2rem 5rem;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+.hero__card {
+  max-width: 860px; width: 100%;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 16px;
+  padding: 1.75rem;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 20px 60px rgba(0,0,0,.35);
+}
+.kicker { text-transform: uppercase; letter-spacing: .14em; font-size: .78rem; color: var(--muted); }
+.hero h1 { margin: .35rem 0 0; font-size: clamp(1.6rem, 2.6vw + 1rem, 2.6rem); line-height: 1.2; }
+.hero p.lead { color: var(--muted); margin-top: .6rem; }
+.hero .grid { margin-top: 1rem; display: grid; gap: .5rem; grid-template-columns: 1fr 1fr; }
+.hero .pill {
+  background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.06); border-radius: 999px;
+  padding: .5rem .75rem; display: inline-flex; align-items: center; gap: .5rem; color: var(--fg);
+}
+.hero .dot { width: .5rem; height: .5rem; border-radius: 50%; background: #48d597; display: inline-block; }
+
+/* Continue hint */
+.continue {
+  margin-top: 1.25rem; display: inline-flex; align-items: center; gap: .5rem;
+  color: var(--accent); text-decoration: none; font-weight: 600;
+}
+.arrow {
+  width: .75rem; height: .75rem; border-right: 2px solid var(--accent); border-bottom: 2px solid var(--accent);
+  transform: rotate(45deg); margin-top: .15rem; animation: bounce 1.2s infinite;
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0) rotate(45deg); }
+  50% { transform: translateY(3px) rotate(45deg); }
+}
+
+/* --- REAL CONTENT --- */
+main {
+  max-width: 860px; margin: 0 auto; padding: 2rem 1.2rem 5rem;
+}
+main h1, main h2, main h3 { scroll-margin-top: 1rem; }
+main a { color: #7cc2ff; }
+code, pre { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; }
+pre { padding: 1rem; overflow-x: auto; }
