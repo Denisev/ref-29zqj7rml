@@ -54,9 +54,9 @@ title: Internal Performance Packet
 
 ## Documents
 
-- ./docs/file1.md
-- ./docs/file2.md
-- ./docs/file3.md
+- [file1](docs/file1.md)
+- [file2](docs/file2.md)
+- [file3](docs/file3.md)
 
 ---
 
