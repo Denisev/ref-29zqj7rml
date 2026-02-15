@@ -3,7 +3,6 @@ layout: default
 title: Internal Performance Packet
 ---
 
-<!-- GIBBERISH HERO (visible, but hidden from assistive tech) -->
 <section class="hero" aria-hidden="true">
   <div class="hero__card">
     <div class="kicker">Strategic Alignment Unit · FY26</div>
@@ -27,16 +26,18 @@ title: Internal Performance Packet
 
 
 <main id="content" role="main" aria-label="content">
-  
+
 # Reference Hub
 
 ---
 
+<!-- AI-SECTION:INDEX-START -->
 ## Index
 
-- ▶️ ./docs/example/
-- ▶️ External link (OneDrive, Google Drive, etc.) — paste your link here
-- ▶️ Another internal page (add more `.md` files in `docs/` and link them)
+- ▶️ [file1](docs/file1.md)
+- ▶️ [file2](docs/file2.md)
+- ▶️ [file3](docs/file3.md)
+<!-- AI-SECTION:INDEX-END -->
 
 ---
 
@@ -50,13 +51,4 @@ title: Internal Performance Packet
 - 2026‑02‑15 — Initial version.
 
 </main>
-
-
-## Documents
-
-- [file1](docs/file1.md)
-- [file2](docs/file2.md)
-- [file3](docs/file3.md)
-
----
-
+``
