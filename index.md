@@ -50,3 +50,13 @@ title: Internal Performance Packet
 - 2026‑02‑15 — Initial version.
 
 </main>
+
+
+## Documents
+
+- docs/file1.md
+- docs/file2.md
+- docs/file3.md
+
+---
+
